@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+@font-face {
+    font-family: 'HandWriting';
+    src: url('HandWriting.otf');
+}
+
+
+header {
+
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+h1 {
+    text-shadow: -3px 5px 17px aqua;
+    font-size: 80px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'HandWriting';
+}
+
+h2, h3, h4 {
+    font-size: 30px;
+}
+
+header > img {
+    position: absolute;
+    right: 150px;
+    top: 80px;
+}
+
+.emotikounky {
+    position: fixed;
+    right: 10px;
+    top: 60px;
+}
+.emotikounky > * {
+    height: 30px;
+}
+
+.soijek-horejsi {
+    height: 200px;
+opacity: 0.8;
+}
+
+.soijek-dolejsi {
+    height: 200px;
+opacity: 0.8;
+
+    position: fixed;
+bottom: 100px;
+}
+
+
+header > h2 {
+    position: fixed;
+    right: 30px;
+}
+
+.banner-kokotina {
+display: flex;
+justify-content: center;
+margin: 20px;
+}
+
+
+
+
+.NAVIGACE{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+.NAVIGACE * {
+    border: 2px solid black;
+    padding: 5px;
+    width: 100px;
+}
+
+.navigace2 * :hover {
+   background-color: white;
+}
+
+.navigace2 {
+display: flex;
+background-color: aqua;
+position: fixed;
+left: 20px;
+flex-direction: column;
+width: min-content;
+height: min-content;
+
+    list-style-type: none;
+}
+
+.navigace2 button {
+    border: none;
+    background-color: aqua;
+    margin-block: 5px;
+}
+
+.navigace2 img {
+height: 90px;
+}
+
+.ctverecci {
+    position: fixed;
+    bottom: 200px;
+    display: none;
+}
+
+.ctverecek {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.ctverecek2 {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+
+.stranka {
+    background-color: aqua;
+    display: flex;
+flex-wrap: wrap;
+width: 400px;
+height: 500px;
+position: fixed;
+right: 60px;
+padding-inline: 5px;
+padding-top: 10px;
+align-content: flex-start;
+
+
+}
+
+.stranky .stranka {
+    display: none;
+}
+.stranky .stranka .is-active {
+    display: block;
+}
+
+
+
+.bannerky-dole {
+    font-size: 50px;
+    bottom: 2px;
+    border: 5px solid black;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0px;
+        background-color: aqua;
+}
+
+.bannerky-dole > img {
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    margin-bottom: 0px;
+
+}
