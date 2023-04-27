@@ -1,0 +1,1 @@
+# komorovic-epicka-stranka
