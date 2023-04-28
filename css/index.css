@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Comic Sans MS", "Comic Sans";
+    font-family: 'courier';
 }
 @font-face {
     font-family: 'HandWriting';
@@ -22,7 +22,7 @@ h1 {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'HandWriting', "Comic Sans MS", "Comic Sans";
+    font-family: 'HandWriting', 'courier';
 }
 
 h2, h3, h4 {
